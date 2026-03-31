@@ -23,8 +23,9 @@ export default function email() {
 
           <View style={styles.emailFooter}>
             <Link href="/home" push asChild>
-              <TouchableOpacity>
-                <Text style={styles.backLink}>Go to Home Screen</Text>
+              <TouchableOpacity style={styles.btn}>
+                <Text style={styles.btnText}>Go to Home Screen</Text>
+                <Text style={styles.btnArrow}>→</Text>
               </TouchableOpacity>
             </Link>
           </View>
